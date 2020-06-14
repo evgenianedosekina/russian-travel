@@ -1,0 +1,10 @@
+.places__textbox {
+    margin: 0;
+    align-self: start;
+    grid-area: textbox;
+}
+@media screen and (max-width: 320px) {
+    .places__textbox {
+        padding: 0 16px;
+    }
+}
