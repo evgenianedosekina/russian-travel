@@ -9,7 +9,8 @@
 .places__paragraph:first-child {
     padding-bottom: 40px;
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 768px) {
     .places__paragraph {
         font-size: 16px;
         line-height: 1.6;

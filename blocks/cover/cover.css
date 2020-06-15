@@ -4,26 +4,27 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__link/cover__link.css);
 .cover {
-    max-height: 740px;
-    min-height: 200px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    position: relative;
     margin: 0 48px;
     padding: 92px 0;
 }
 @media screen and (max-width: 1024px) {
     .cover {
-        margin: 0 48px;
+        margin: 0;
         padding: 92px 0;
     }
 }
+@media screen and (max-width: 768px) {
+    .cover {
+        padding: 123px 0 53px 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover {
-        margin: 0;
         padding: 62px 0;
-        height: 100%;
     }
 }
