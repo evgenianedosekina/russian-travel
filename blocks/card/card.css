@@ -1,0 +1,42 @@
+@import url(./__image/card__image.css);
+@import url(./__website/card__website.css);
+@import url(./__url-heading/card__url-heading.css);
+@import url(./__link/card__link.css);
+@import url(./__textbox/card__textbox.css);
+@import url(./__paragraph/card__paragraph.css);
+@import url(./__title/card__title.css);
+
+.card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(460px, 1fr) 1fr;
+    grid-template-areas: 
+    "title website"
+    "image textbox";
+    gap: 48px 40px;
+    padding: 92px 0 0 0;
+}
+@media screen and (max-width: 1024px) {
+    .card {
+        grid-template-columns: minmax(440px, 1fr) 1fr;
+        gap: 48px 32px;
+    }
+}
+@media screen and (max-width: 768px) {
+.card {
+    grid-template-columns: minmax(340px, 1fr) 1fr;
+    padding: 88px 0 0 0;
+    gap: 48px 28px;
+}
+}
+@media screen and (max-width: 320px) {
+    .card {
+        grid-template-columns: minmax(320px, 1fr);
+        grid-template-areas: 
+    "title" 
+    "image" 
+    "textbox";
+        padding: 64px 0 0 0;
+        gap: 32px;
+    }
+}

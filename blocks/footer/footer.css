@@ -1,11 +1,13 @@
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__menu/footer__menu.css);
 .footer {
     min-height: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 48px 24px 48px;
     margin: 0;
 }

@@ -1,4 +1,4 @@
-.places__link {
+.card__link {
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
@@ -6,6 +6,6 @@
     color: #FFFFFF;
     opacity: 100%;
 }
-.places__link:hover {
+.card__link:hover {
     opacity: 30%;
 }

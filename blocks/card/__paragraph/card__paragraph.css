@@ -1,21 +1,20 @@
-.places__paragraph {
+.card__paragraph {
     font-weight: normal;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 1.6;
     color: #FFFFFF;
     padding: 0;
     margin: 0;    
 }
-.places__paragraph:first-child {
+.card__paragraph:first-child {
     padding-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    .places__paragraph {
+    .card__paragraph {
         font-size: 16px;
-        line-height: 1.6;
     }
-    .places__paragraph:first-child {
+    .card__paragraph:first-child {
         padding-bottom: 24px;
     }
 }

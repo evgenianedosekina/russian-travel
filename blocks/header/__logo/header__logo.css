@@ -4,6 +4,7 @@
     background-image: url(../../../images/header-logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: bottom;
     margin: 0;
     align-self: flex-end;
 }
