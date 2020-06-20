@@ -8,10 +8,13 @@
     margin: 0;
     align-self: end;
 }
-
+@media screen and (max-width: 690px){
+    .footer__copyright{
+        justify-self: start;
+    }
+}
 @media screen and (max-width: 320px) {
     .footer__copyright {
-        justify-self: start;
         line-height: 1;
         }
 }

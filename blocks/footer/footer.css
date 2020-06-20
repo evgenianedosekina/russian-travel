@@ -14,6 +14,11 @@
         padding: 0 24px 24px 24px;
     }
 }
+@media screen and (max-width: 690px){
+    .footer {
+        grid-template-columns: 1fr;
+        }
+}
 @media screen and (max-width: 320px) {
     .footer {
         grid-template-columns: 1fr;

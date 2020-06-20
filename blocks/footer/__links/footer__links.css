@@ -6,10 +6,11 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
 .footer__links {
     grid-template-columns: 1fr;
     gap: 32px;
-    margin-bottom: 48px;
-}
+    margin-bottom: 48px;  
+    
+    }
 }
