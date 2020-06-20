@@ -2,14 +2,16 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.15;
     text-align: right;
     color: #FFFFFF;
     margin: 0;
+    align-self: end;
 }
+
 @media screen and (max-width: 320px) {
     .footer__copyright {
+        justify-self: start;
         line-height: 1;
-        margin-top: 48px;
-    }
+        }
 }

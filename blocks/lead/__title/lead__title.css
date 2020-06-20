@@ -3,7 +3,7 @@
     width: 100%;
     font-style: normal;
     font-weight: 900;
-    font-size: 96px;
+    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (1280 - 320)));
     line-height: 1.05;
     text-align: center;
     color: #FFFFFF;
@@ -16,20 +16,10 @@
 
     }
 }
-@media screen and (max-width: 690px) {
-    .lead__title {
-        font-size: 54px;
-        line-height: 1.1;
-    }
-}
-@media screen and (max-width: 425px) {
-    .lead__title {
-        font-size: 48px;        
-    }
-}
+
 @media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
-        font-size: 40px;
+        line-height: 1.1;
     }
 }

@@ -1,9 +1,9 @@
-@import url(./_decoration/header__lang-link_decoration_underline.css);
 .header__lang-link {
     padding-left: 18px;
     color: #FFFFFF;
-    opacity: 100%;
+    text-decoration: none;
+    opacity: 1;
 }
 .header__lang-link:hover {
-    opacity: 30%;
+    opacity: 0.8;
 }
